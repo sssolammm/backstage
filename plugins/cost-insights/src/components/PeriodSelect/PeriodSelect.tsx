@@ -37,6 +37,10 @@ export function getDefaultOptions(
       label: 'Past 6 Months',
     },
     {
+      value: Duration.P7D,
+      label: 'Past 7 Days',
+    },
+    {
       value: Duration.P30D,
       label: 'Past 60 Days',
     },
